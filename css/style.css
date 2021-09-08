@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,700");
+
+
+@import url("components.css/cards.css");
+@import url("components.css/container.css");
+@import url("components.css/banner.css");
+@import url("components.css/buttons.css");
+@import url("components.css/avatar.css");
+
+@media (max-width: 960px) {
+  /* Para una pantalla < 960px, se leerá este CSS */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* Para una pantalla < 720px, se leerá este CSS */
+  .container {
+    width: 500px;
+
+  }
+}
+@media (max-width: 540px) {
+  /* Para una pantalla < 540px, se leerá este CSS */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  margin: 0px;
+  background: #F7F9FC;
+
+}
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  text-align: center
+}
+
+a{
+    font-size: 16px;
+  text-decoration: none;
+}
+div {
+    display: block;
+}
