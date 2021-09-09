@@ -1,0 +1,43 @@
+.btn-green{
+  border-radius: 6px;
+  background-color: #8CD890 ;
+  padding: 15px 20px;
+  color: white;
+  font-weight: bold;
+  box-shadow: 2px 10px 30px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  position: relative;
+}
+
+.btn-green:hover{
+  background: #42c449 ;
+
+}
+.btn-buscador{
+  border-radius: 6px;
+  background-color:  #0a9fdf46 ;
+  padding: 15px 20px;
+  color: white;
+  font-weight: bold;
+  box-shadow: 2px 10px 30px rgba(0, 0, 0, 0.3);
+  position: relative;
+  padding-right: 80px;
+  padding-left: 80px;
+  margin-right: 40px;
+align-items: center;
+
+}
+
+.btn-blue{
+  border-radius: 6px;
+  background-color: #0AA0DF ;
+  padding: 15px 20px;
+  color: white;
+  font-weight: bold;
+  box-shadow: 2px 10px 30px rgba(0, 0, 0, 0.3);
+  
+}
+
+.btn-blue:hover {
+  background: #007db3 ;
+}

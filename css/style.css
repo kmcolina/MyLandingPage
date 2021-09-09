@@ -1,57 +1,64 @@
 @import url("https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,700");
 
 
-@import url("components.css/cards.css");
-@import url("components.css/container.css");
-@import url("components.css/banner.css");
-@import url("components.css/buttons.css");
-@import url("components.css/avatar.css");
+@import url("components/banner.css");
+@import url("components/buttons.css");
+@import url("components/navbar.css");
+@import url("components/container.css");
+@import url("components/cards.css");
+@import url("components/footer.css");
+
 
 @media (max-width: 960px) {
-  /* Para una pantalla < 960px, se leerá este CSS */
-  .container {
-    width: 700px;
+    /* Para una pantalla < 960px, se leerá este CSS */
+    .container {
+      width: 700px;
+    }
   }
-}
-@media (max-width: 720px) {
-  /* Para una pantalla < 720px, se leerá este CSS */
-  .container {
-    width: 500px;
-
+  @media (max-width: 720px) {
+    /* Para una pantalla < 720px, se leerá este CSS */
+    .container {
+      width: 500px;
+  
+    }
   }
-}
-@media (max-width: 540px) {
-  /* Para una pantalla < 540px, se leerá este CSS */
-  .container {
-    width: 300px;
+  @media (max-width: 540px) {
+    /* Para una pantalla < 540px, se leerá este CSS */
+    .container {
+      width: 300px;
+    }
   }
-}
-
 body {
-  font-family: 'Lora', serif;
-  font-size: 18px;
-  margin: 0px;
-  background: #F7F9FC;
-
-}
-h1, h2, h3 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: bold;
-  text-align: left
-}
-.banner .container h2{
- font-size: 16px;
-  padding-bottom: 0px;
-}
-.banner .container h1{
-margin-bottom: 0px;
-  padding-bottom: 0px;
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    margin: unset;
+    background: #F7F9FC;
 }
 
-a{
-    font-size: 16px;
+a {
   text-decoration: none;
 }
-div {
-    display: block;
+
+p {
+  font-size: large;
+}
+
+ul {
+  list-style-type: none;
+  text-align: left;    
+  width: auto;
+  margin: 0px 0px;
+  background-size: cover;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  top: 20px;
+  left: 40px;
+  color: #07df12 ;
+  font-size: 20px;;
+
+}
+
+svg {
+  color: #07df12 ;
 }
